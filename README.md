@@ -27,9 +27,9 @@ Keyboard:
 
 ### :camera: Screenshots
 
-![Gameplay demo](screenshots/demo_gamplay00.gif)
+![Gameplay demo](screenshots/demo_gameplay00.gif)
 
-![Level generation](screenshots/demo_gamplay01.gif)
+![Level generation](screenshots/demo_gameplay01.gif)
 
 ### :gem: Resources
 
