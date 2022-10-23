@@ -1,8 +1,8 @@
-## Gameboy Adventure
+## :video_game: Gameboy Adventure
 
 ![Screenshot00](screenshots/Screenshot-platformer00.png "Platformer")
 
-### :pen: Description
+### :black_nib: Description
 
 Basic 2D platformer game like *Super Mario*. Player will have to avoid obastacles, and collect the key to unlock the door to next level. All levels are procedurally generated, and currently there is no difference in difficulty. If player passes a checkpoint in the level, he will respawn at the checkpoint.
 
@@ -10,14 +10,14 @@ Basic 2D platformer game like *Super Mario*. Player will have to avoid obastacle
 
 - [Raylib](https://www.raylib.com)
 
-### :medal: Features
+### :jack_o_lantern: Features
 
  - 2D platformer physics
  - procedural generation
  - smooth camera effect
  - checkpoint location
 
-### :gamepad: Controls
+### :joystick: Controls
 
 Keyboard:
  - KEY_LEFT or KEY_A (to move left)
@@ -31,7 +31,7 @@ Keyboard:
 
 ![Level generation](screenshots/demo_gamplay01.gif "Levels")
 
-### :diamond: Resources
+### :gem: Resources
 
 - [Kenny Platformer Assets](https://www.kenney.nl/assets/simplified-platformer-pack)
 
