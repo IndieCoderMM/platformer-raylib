@@ -8,7 +8,7 @@ Basic 2D platformer game like *Super Mario*. Player will have to avoid obastacle
 
 ### :gear: Tools
 
-- [Raylib](https://www.raylib.com)
+- [Raylib](https://github.com/raysan5/raylib)
 
 ### :jack_o_lantern: Features
 
