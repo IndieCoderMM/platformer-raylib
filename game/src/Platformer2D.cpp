@@ -30,8 +30,8 @@ void Game::drawGUI(Player player) {
 }
 
 void Game::newStage(Player* player) {
-	player->pos = Vector2(0, 0);
-	player->checkPoint = Vector2(0, 0);
+	//player->pos = Vector2(0, 0);
+	//player->checkPoint = Vector2(0, 0);
 	setNewTheme();
 	makeLevel();
 }

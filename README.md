@@ -1,38 +1,43 @@
-## Platformer Game in Raylib
+## Gameboy Adventure
 
-![$(Game Title)](screenshots/screenshot000.png "$(Game Title)")
+![Screenshot00](screenshots/Screenshot-platformer00.png "Platformer")
 
-### Description
+### :pen: Description
 
-$(Your Game Description)
+Basic 2D platformer game like *Super Mario*. Player will have to avoid obastacles, and collect the key to unlock the door to next level. All levels are procedurally generated, and currently there is no difference in difficulty. If player passes a checkpoint in the level, he will respawn at the checkpoint.
 
-### Features
+### :gear: Tools
 
- - $(Game Feature 01)
- - $(Game Feature 02)
- - $(Game Feature 03)
+- [Raylib](https://www.raylib.com)
 
-### Controls
+### :medal: Features
+
+ - 2D platformer physics
+ - procedural generation
+ - smooth camera effect
+ - checkpoint location
+
+### :gamepad: Controls
 
 Keyboard:
- - $(Game Control 01)
- - $(Game Control 02)
- - $(Game Control 03)
+ - KEY_LEFT or KEY_A (to move left)
+ - KEY_RIGHT or KEY_D (to move right)
+ - KEY_UP or KEY_SPACE (to jump)
+ - KEY_ENTER (to unlock door or to enter)
 
-### Screenshots
+### :camera: Screenshots
 
-_TODO: Show your game to the world, animated GIFs recommended!._
+![Gameplay demo](screenshots/demo_gamplay00.gif "Stage 01")
 
-### Links
+![Level generation](screenshots/demo_gamplay01.gif "Levels")
 
- - YouTube Gameplay: $(YouTube Link)
- - itch.io Release: $(itch.io Game Page)
- - Steam Release: $(Steam Game Page)
+### :diamond: Resources
 
-### License
+- [Kenny Platformer Assets](https://www.kenney.nl/assets/simplified-platformer-pack)
 
-This game sources are licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE) for further details.
 
-$(Additional Licenses)
-
-*Copyright (c) 2022 IndieCoderMM
+#### :dart: Todo
+- [ ] Particle system & emitter
+- [ ] Level difficulty
+- [ ] SFX
+- [ ] Enemy

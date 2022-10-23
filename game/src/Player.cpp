@@ -33,20 +33,20 @@ void Player::handleControl(float delta)
 {
 	moving = false;
 	direction = 0;
-	if (IsKeyDown(KEY_LEFT))
+	if (IsKeyDown(KEY_LEFT) || IsKeyDown(KEY_A))
 	{
 		moving = true;
 		direction = -1;
 		frameRect.width = frameWidth * direction;
 	}
-	else if (IsKeyDown(KEY_RIGHT))
+	else if (IsKeyDown(KEY_RIGHT) || IsKeyDown(KEY_D))
 	{
 		moving = true;
 		direction = 1;
 		frameRect.width = frameWidth * direction;
 	}
 
-	if (IsKeyDown(KEY_SPACE) && !jumping)
+	if ((IsKeyReleased(KEY_SPACE) || IsKeyReleased(KEY_UP)) && !jumping)
 	{
 		speed.y = -jumpForce;
 		jumping = true;

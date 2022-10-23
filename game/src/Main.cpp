@@ -41,7 +41,7 @@ int main(void)
 	camera.target = player.pos;
 	camera.offset = { screenWidth / 2.0f, screenHeight / 2.0f };
 	camera.rotation = 0.0f;
-	camera.zoom = 0.9f;
+	camera.zoom = 0.5f;
 
 	Game game(screenWidth, screenHeight);
 	game.newStage(&player);
